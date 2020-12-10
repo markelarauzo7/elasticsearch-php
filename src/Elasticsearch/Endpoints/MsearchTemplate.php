@@ -6,7 +6,6 @@ namespace Elasticsearch\Endpoints;
 
 use Elasticsearch\Common\Exceptions;
 use Elasticsearch\Serializers\SerializerInterface;
-use Elasticsearch\Transport;
 
 /**
  * Class MsearchTemplate

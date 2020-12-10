@@ -6,9 +6,6 @@ namespace Elasticsearch\Endpoints;
 
 use Elasticsearch\Common\Exceptions\UnexpectedValueException;
 use Elasticsearch\Serializers\SerializerInterface;
-use Elasticsearch\Transport;
-use Exception;
-use GuzzleHttp\Ring\Future\FutureArrayInterface;
 
 /**
  * Class AbstractEndpoint
