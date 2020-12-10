@@ -149,7 +149,7 @@ class YamlRunnerTest extends \PHPUnit\Framework\TestCase
 
         $response = curl_exec($ch);
         curl_close($ch);
-
+        
         $response = json_decode($response, true);
         static::$esVersion = $response['version']['number'];
         echo "ES Version: ".static::$esVersion."\n";

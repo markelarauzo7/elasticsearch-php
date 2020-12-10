@@ -52,7 +52,7 @@ class Transport
      */
 	// @codingStandardsIgnoreStart
 	// "Arguments with default values must be at the end of the argument list" - cannot change the interface
-    public function __construct($retries, $sniffOnStart = false, AbstractConnectionPool $connectionPool, LoggerInterface $log)
+    public function __construct($retries, AbstractConnectionPool $connectionPool, LoggerInterface $log, $sniffOnStart = false)
     {
 	    // @codingStandardsIgnoreEnd
 

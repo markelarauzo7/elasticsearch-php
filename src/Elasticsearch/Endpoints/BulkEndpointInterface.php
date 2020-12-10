@@ -6,7 +6,6 @@ namespace Elasticsearch\Endpoints;
 
 use Elasticsearch\Serializers\SerializerInterface;
 
-
 /**
  * Interface BulkEndpointInterface
  *

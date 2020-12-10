@@ -93,7 +93,7 @@ class ClientBuilder
      */
     public static function create()
     {
-        return new static();
+        return new self();
     }
 
     /**
@@ -567,7 +567,7 @@ class ClientBuilder
         }
 
         if (is_null($this->transport)) {
-            $this->transport = new Transport($this->retries, $this->sniffOnStart, $this->connectionPool, $this->logger);
+            $this->transport = new Transport($this->retries, $this->connectionPool, $this->logger, $this->sniffOnStart);
         }
     }
 
